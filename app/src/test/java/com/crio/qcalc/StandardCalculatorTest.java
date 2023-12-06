@@ -31,6 +31,7 @@ public class StandardCalculatorTest {
         int actualResult = standardCalculator.getResult();
         Assertions.assertEquals(0, actualResult);
     }
+    
 
 
 }
