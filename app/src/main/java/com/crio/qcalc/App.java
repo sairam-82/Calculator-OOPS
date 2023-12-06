@@ -12,11 +12,13 @@ public class App {
 
         
         
-    StandardCalculator calc = new StandardCalculator();
+    
+    LogicCalculator calc = new LogicCalculator();
 
-    calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
+    calc.OR(8, 6);
 
     calc.printResult();
+
 
         
        

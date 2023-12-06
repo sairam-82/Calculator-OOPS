@@ -70,6 +70,30 @@ public class StandardCalculatorTest {
         double actualResult = standardCalculator.getResult();
         Assertions.assertEquals(0, actualResult);
     }
+    
+   @Test
+
+   @DisplayName("Test Division Divide By Zero Scenario")
+
+   void testDivisionDivideByZero(){
+
+       //Assert
+
+       Assertions.assertThrows(ArithmeticException.class,new Executable(){
+
+           @Override
+
+           public void execute() throws Throwable{
+
+               standardCalculator.divide(10,0);
+
+           }
+
+       });
+
+   }
+
+
 
 
 }

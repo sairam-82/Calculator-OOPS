@@ -1,7 +1,6 @@
 package com.crio.qcalc;
 
 public class ScientificCalculator extends StandardCalculator{
-    
     public static void getVersion(){
         System.out.println("Scientific Calculator 1.0");
     }
